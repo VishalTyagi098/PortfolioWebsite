@@ -62,7 +62,11 @@ function MegaProjects(props) {
           <div className="text-2xl text-[#8993b0] my-3">{props.description}</div>
         </motion.div>
       </div>
-      <div className="w-2/4">Animtation with parallax effect</div>
+
+      {/* Animation with parallax effect */}
+      <div className="w-2/4">
+        
+      </div>
     </div>
   );
 }
