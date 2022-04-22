@@ -1,8 +1,15 @@
 import React,{useEffect} from "react";
+// importing images
+import projects1 from '../../public/images/projects1.png'
+import projects2 from '../../public/images/projects2.png'
+import projects3 from '../../public/images/projects3.png'
+import projects4 from '../../public/images/projects4.png'
 
 // framer motion & react-intersection-observer
-import {useAnimation,motion} from "framer-motion"
+// useViewportScroll & useTransform for parllax
+import {useAnimation,motion, useViewportScroll, useTransform} from "framer-motion"
 import { useInView } from "react-intersection-observer";
+import ProjectImg from "./ProjectImg";
 // framer motion variables
 const variantsLeft={
   hidden:{
@@ -65,7 +72,12 @@ function MegaProjects(props) {
 
       {/* Animation with parallax effect */}
       <div className="w-2/4">
-        
+        <div className="grid grid-cols-2">
+          <ProjectImg img={projects1.src} speed={-2}/>
+          <ProjectImg img={projects2.src} speed={-1}/>
+          <ProjectImg img={projects3.src} speed={-1}/>
+          <ProjectImg img={projects4.src} speed={-0.5}/>
+        </div>
       </div>
     </div>
   );
