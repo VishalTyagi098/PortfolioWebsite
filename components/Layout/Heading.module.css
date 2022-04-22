@@ -1,0 +1,15 @@
+/* horizontal line */
+.horizontal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.horizontal::after{
+  content: "";
+  display: block;
+  width: 30%;
+  height: 3px;
+  margin: 0px auto;
+  background-color: #b22fee;
+}

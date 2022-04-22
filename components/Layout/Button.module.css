@@ -1,0 +1,42 @@
+.btn {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  border: 1.5px solid #ab24f7;
+  text-align: center;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: #020c1b;
+  padding: 10px 45px;
+  transition: all 0.4s ease-in-out 0s;
+  color: #ab24f7 ;
+} 
+
+.btn span {
+  position: relative;
+  z-index: 1;
+} 
+ 
+.btn::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 490%;
+  width: 140%;
+  transition: all 0.4s ease-in-out 0s;
+  transform: translateX(-81.5%) translateY(-20%) rotate(50deg);
+} 
+ 
+.btn:hover::after {
+  transform: translateX(-13%) translateY(-25%) rotate(50deg);
+} 
+ 
+.btn::after {
+  background: #ab24f7;
+} 
+.btn:hover{
+  color: #ffffff;
+}
+ 
