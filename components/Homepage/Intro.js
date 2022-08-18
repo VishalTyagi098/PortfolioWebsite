@@ -18,7 +18,7 @@ const variants={
 function Intro() {
   return (
     <div className='flex justify-center h-[90vh]'>
-      <div className='border border-white flex flex-col justify-center w-4/5'>
+      <div className=' flex flex-col justify-center w-4/5'>
         <motion.div
         initial="hidden"
         animate="visible"

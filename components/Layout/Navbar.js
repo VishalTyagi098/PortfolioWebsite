@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <div className='flex justify-center h-[10vh] bg-[#020c1b] text-[#9fa8c6]'>
       <nav className='flex justify-center w-11/12'>
-        <ul className='flex justify-end items-center border border-blue-700 w-full'>
+        <ul className='flex justify-end items-center w-full'>
           <li className='mr-auto'><Link href="/">Logo</Link></li>
           <motion.li
           initial="hidden"
