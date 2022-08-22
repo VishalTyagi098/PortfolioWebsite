@@ -21,8 +21,8 @@ function projects() {
 
   return (
     <div className="flex justify-center h-full ">
-      <div className="flex flex-col justify-center items-center border border-red-600 w-4/5">
-        <div className=" border border-white w-full h-full ">
+      <div className="flex flex-col justify-center items-center w-4/5">
+        <div className=" w-full h-full ">
           <MegaProjects {...mega1}/>
         </div>
         
