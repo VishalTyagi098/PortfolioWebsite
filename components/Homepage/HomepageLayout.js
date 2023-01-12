@@ -5,6 +5,7 @@ import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Heading from '../Layout/Heading'
 import Contact from '../Contact/Contact'
+import Skills from '../Skills/Skills'
 
 // This will be the overall layout of homepage
 export default function HomepageLayout() {
@@ -13,8 +14,8 @@ export default function HomepageLayout() {
       <Navbar/>
       <Socials/>
       <Intro/>
-      <About/>
-      {/* <Skills/> */}
+      {/* <About/>
+      <Skills/> */}
       <Projects/>
       {/* <Contact/> */}
     </div>

@@ -4,8 +4,8 @@ import Heading from "../Layout/Heading";
 
 function About() {
   return (
-    <div className="flex justify-center items-center h-[100vh] ">
-      
+    <div className="flex justify-center items-center h-[60vh] bg-[#ab24f7]">
+      <AboutText/>
     </div>
   );
 }
